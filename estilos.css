@@ -1,0 +1,175 @@
+/* Establecer la fuente y tamaño del texto para todo el documento */
+body {
+    background-color:#fff;
+    font-family: verdana;
+    font-size: 30px;
+}    
+
+
+/* Establecer los estilos para la cabecera */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+}
+
+/* Establecer los estilos para la barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Establecer los estilos para los enlaces de la barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* Establecer los estilos para los enlaces de la barra de navegación */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 50px;
+
+
+}
+
+
+/* Establecer los estilos para el encabezado de sección */
+section h1, section h2, section h3, section h4 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Establecer los estilos para los párrafos de sección */
+section p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Establecer los estilos para la imagen principal */
+section img {
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: 600px;
+}
+
+/*Establecer los estilos a las otras imagénes*/
+.contenedor {
+    display: flex;
+    justify-content:center;
+     
+}
+
+.imagen_2{
+    width: 700px;
+    height: 500px; 
+    margin-right: 50px; 
+}
+
+.imagen_3{
+    width: 700px;
+    height: 500px;  
+    margin-right: 50px;    
+}
+
+.imagen_4{
+    width: 700px;
+    height: 500px;
+    
+}
+
+/* Establecer los estilos para la tabla */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color:#333;
+    color: #fff;
+}
+
+/* Establecer los estilos para el formulario */
+form {
+    margin: 20px;
+    padding: 10px;
+    background-color:#333;
+    color: #fff;
+    border-collapse: collapse;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size:medium;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: large;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 35px 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:x-large;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+    font-size:medium;
+  }
+
+/* Establecer los estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedortexto{
+
+text-align: center;
+}

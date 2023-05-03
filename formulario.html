@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<table style="width: 100%">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+    }
+    
+    th, td {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+
+        padding-right: 40px;
+    }
+    </style>  
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Descorchados </title>
+    <link rel="styleSheet" href="estilos.css" type="text/css">
+</head>   
+<body>
+    <header>
+        <h1>Viña Descorchados</h1>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Quiénes somos">Quienés somos</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#Otra">Otra</a></li>
+                <li><a href="http://www.memoriachilena.gob.cl/602/w3-article-3511.html" target="_blank">Historia del vino</a></li>
+                </li>
+            </ul>    
+        </nav>
+    </header>
+
+    <main>
+        <section id="Home"><br>
+        <h2> Bienvenido a nuestro sitio web Viña Descorchados.</h2> 
+        <p> En este sitio web podrás encontrar vinos de clase mundial inconfundiblemente chilenos.</p>
+        <img src="imagen-principal.jpg" alt="imagen principal">
+        </section>
+       
+        <br>
+        <section id="Quiénes somos"><br>
+            <h2>En esta sección podrás encontrar una breve reseña de nuestra empresa.</h2>
+            <p> En descorchados todos vivimos el vino, por eso como empresa hemos trabajado arduamente para ser líderes en el rubro vitivinícola y en conocimiento enológico, ofreciendo productos únicos que reúnen tradición, carácter y excelencia. Para cumplir este desafío ha sido clave el trabajo comprometido y riguroso de nuestro equipo, formado por asesores, especialistas y una mesa de cata compuesta por miembros de la familia, quienes velan por la conservación del sello histórico de la viña.</p>     
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cargo</th> 
+                    <th>Correo electrónico</th>  
+                </tr>
+                <tr>
+                    <td>Juan Francisco Goyenechea</td>
+                    <td>Gerente</td>
+                    <td>jfgoyenechea@descorchados.cl</td>
+                </tr>
+                <tr>
+                    <td>José María Perez</td>
+                    <td>Asistente de Gerencia</td>
+                    <td>jmariaperez@descorchados.cl</td> 
+                </tr>
+                <tr>
+                    <td>Juan Manuel Castillo</td>
+                    <td>Vendedor Comercial</td>
+                    <td>jmanuelcastillo@descorchados.cl</td>
+                </tr>
+            </table>      
+                <br>       
+        </section>  
+        
+        <section id="mision-vision">
+            <h3>Misión y Visión</h3>
+            <p>Nuestra misión es proyectarse a largo plazo, Descorchados desarrolló un análisis estrátegico, que toma la esencia de nuestra identidad y trayectoria.</p>
+            <p>Nuestra visión es ser referente mundiales de vinos.</p>
+        </section>
+
+       
+        <section id="Contacto"><br>
+            <h3>Nuestro Newsletter</h3>
+            <p> Únete a nuestro newsletter y recibe las novedades de Viña Descorchados.</p>
+
+            <form action="/formularios/subscripcion-newsletter.html" method="post">
+                <label for="nombre"> Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre"><br>
+                <label for="apellido"> Apellido:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Ingrese Apellido"><br>
+                <label for="email">Email</label>
+                <input type="email" id="Email" name="email" placeholder="Ingrese Email"><br>
+                <label>Mensaje:</label><br>
+                <textarea id="Mensaje" name="mensaje"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <br>
+        <section id="Otra">
+            <h4>Otra</h4>
+            <p>Esta es otra sección de Descorchados</p>
+            <div class="contenedor">
+                <img src="imagen_2.jpg" class="imagen_2" alt="">
+                <img src="imagen_3.jpg" class="imagen_3" alt="">
+                <img src="imagen_4.JPG" class="imagen_3" alt="">
+            </div>
+            <div class="contenedortexto">
+                <ul>
+                    <li>Tours guiados</li>
+                    <li>Degustaciones</li>
+                    <li>Sustentabilidad</li>
+                    <li>Reconocimientos</li>
+                </ul>  
+            </div>  
+        </section>
+
+    </main>
+
+    <br>
+    <hr>
+    
+    <footer>
+        <p>&copy; 2023 Viña Descorchados Todos los derechos reservados.</p>
+        <p>Términos y Condiciones</p>
+        <p>Política de ventas</p>
+    </footer> 
+</body> 
+</html>
